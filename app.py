@@ -11,7 +11,7 @@ def getMonthYear(timestamp):
     return str(timestamp.year) + "-" + str(timestamp.month)
 
 stock = yf.Ticker('SPY')
-stock_hist = stock.history(period='2y')
+stock_hist = stock.history(period='10y')
 current_price = stock.info['regularMarketPrice']
 
 
