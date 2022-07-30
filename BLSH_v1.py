@@ -11,7 +11,7 @@ initial_investment = 100
 cost_per_tx = 0.5/100
 
 INTERVAL = '60m'
-TICKERS = ['SPY-USD']
+TICKERS = ['BTC-USD']
 PERIODS = ['1d','2d','10d']
 
 for TICKER in TICKERS:
